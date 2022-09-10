@@ -1,0 +1,55 @@
+﻿@page "/git"
+@using BlazorApp.Shared 
+@inject HttpClient Http
+
+<h1>Git Commands</h1>
+
+
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Command</th>
+                <th>Function</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>git status</td>
+                <td>check your Git configuration</td>
+            </tr>
+            <tr>
+                <td>git config -l</td>
+                <td>check a repository's status</td>
+            </tr>
+            <tr>
+                <td>git commit -m "lorem ipsum"</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>git show commit-id</td>
+                <td>command shows a specific commit</td>
+            </tr>
+            <tr>
+                <td>git branch branch_name</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>git checkout -b branch_name</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>git merge branch_name</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>git checkout -b branch_name</td>
+                <td></td>
+            </tr>    
+        </tbody>
+    </table>
+
+
+@code {
+
+}
